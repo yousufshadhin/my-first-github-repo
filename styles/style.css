@@ -36,10 +36,10 @@ h3{
     text-decoration: underline;
     /* font-family: 'Courier New', Courier, monospace; */
 }
-.second{
-/* display: none;} */
-/* visibility: hidden; */
-}
+ /* .second{
+display: none;
+ visibility: hidden; 
+} */
 .blog{
     margin: 20px;
     border: 10px solid rgb(144, 8, 137);
