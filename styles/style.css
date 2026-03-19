@@ -45,14 +45,14 @@ display: none;
     border: 10px solid rgb(144, 8, 137);
     box-shadow: 10px 10px 5px rgb(11, 38, 245);
 }
-li{
+/* li{
     font-size: larger;
     font-weight: bold;
 }
 a{
     color: rgb(2, 2, 2);
     font-size: large;
-}
+} */
 img{
     width: 100%;
     height: auto;
@@ -61,3 +61,14 @@ nav>ul>header>a{
     display: inline;
     margin-right: 20px;
 }
+header>nav>ul>li{
+    display: inline;
+    margin-right: 20px;
+}
+nav li a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}   

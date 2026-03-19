@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="../styles/nav.css">
+  <style>
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="about.html">About</a></li>
+        <li> <a href="test.html">Test</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form action="/submit-your-form" method="POST">
+      <h2>Create Your Account</h2>
+      <p>
+        <label for="firstname">Firstname:</label><br>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter your first name">
+      </p>
+
+      <p>
+        <label for="lastname">Lastname:</label><br>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter your last name">
+      </p>
+
+
+      <p>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" placeholder="Choose a name">
+      </p>
+
+      <p>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required>
+      </p>
+
+      <p>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required>
+      </p>
+
+      <hr style="margin: 20px 0;">
+
+
+      <!-- are;ihkldmrgkfejh -->
+
+
+
+
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+
+      <label for="phone">Your Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+      <fieldset>
+        <legend>Choose Your Interests</legend>
+
+        <label for="Technology">
+          <input type="radio" name="interests" id="Technology"> Technology
+        </label>
+
+        <label for="Sports">
+          <input type="radio" name="interests" id="Sports"> Sports
+        </label>
+
+        <label for="Music">
+          <input type="radio" name="interests" id="Music"> Music
+        </label>
+
+        <label for="Travel">
+          <input type="radio" name="interests" id="Travel"> Travel
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Subscribe to Our Newsletter</legend>
+
+        <label for="subscribe_yes">
+          <input type="checkbox" name="newsletter" id="subscribe_yes"> Yes, I want to receive updates!
+        </label>
+
+        <label for="subscribe_no">
+
+          <input type="checkbox" name="newsletter" id="subscribe_no"> No, I don't want to receive updates.
+
+        </label>
+
+      </fieldset>
+      
+      <fieldset>
+        <legend>Special Instructions</legend>
+        <textarea name="instructions" id="instructions" rows="4" cols="50" placeholder="Any special instructions or comments?"></textarea>
+
+      </fieldset>
+      <button type="submit">Sign Up</button>
+      <button type="reset">Reset</button>
+    </form>
+  </main>
+</body>
+
+</html>
